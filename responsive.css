@@ -1,0 +1,84 @@
+/*====================================
+========== header section============
+=====================================*/
+
+
+/*====================================
+========== player and blog section====
+=====================================*/
+
+@media screen and (max-width:768px) {
+    .container {
+        width: auto
+    }
+
+    .players {
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 29px;
+    }
+
+    .blog-info {
+        margin-left: 27px;
+    }
+
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:592px) {
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        padding: 14px;
+    }
+
+    .players {
+
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .player {
+
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .player h3 {
+        margin-top: 9px;
+    }
+
+    .section-title {
+        text-align: center;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog-info {
+        margin-left: 27px;
+        margin-top: 22px;
+        margin-bottom: 9px;
+    }
+
+    .blog-img {
+        width: 100%;
+    }
+}
+
+/*====================================
+============== courses section========
+=====================================*/
